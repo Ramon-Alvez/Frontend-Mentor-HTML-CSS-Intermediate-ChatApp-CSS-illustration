@@ -4,9 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="shortcut icon" href="assets/images/favicon-32x32.png" type="image/x-icon">
   
   <title>Frontend Mentor | [Challenge Name Here]</title>
+
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/variables.css">
+  <link rel="stylesheet" href="assets/css/style.css">
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
@@ -15,37 +19,97 @@
   </style>
 </head>
 <body>
+  <div class="pattern-left"></div>
+  <div class="pattern-right"></div>
+  <main>
+    <div class="mockup-container">
+      <div id="cel">
+        <div id="cel-display">
+          <div class="cam"></div>
+          <header class="profile">
+            <div class="back">
+              <a href="#"><span></span></a>
+            </div>
+            <div class="profile-image">
+              <img src="assets/images/avatar.jpg" alt="Samuel Green">
+            </div>
+            <div class="profile-info">
+              <span>Samuel Green</span>
+              <p>Available to Walk</p>
+            </div>
 
-  Samuel Green
-  Available to Walk
+            <div class="menu">
+              <input type="checkbox" name="menu" id="menu-checkbox">
+              <label for="menu-checkbox" class="trigger">
+                <div class="menu-icon">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+              </label>
 
-  That sounds great. I’d be happy with that.
+              <nav class="menu-list">
+                <button>Visão geral</button>
+                <button>Mídia</button>
+                <button>Arquivos</button>
+                <button>Links</button>
+                <button>Criptografia</button>
+                <button>Grupos</button>
+              </nav>
+            </div>
 
-  Could you send over some pictures of your dog, please?
 
-  Here are a few pictures. She’s a happy girl!
+          </header>
+          <section class="chat">
+            <p class="message chat-left">That sounds great. I’d be happy with that.</p>
 
-  Can you make it?
+            <p class="message chat-left">Could you send over some pictures of your dog, please?</p>
 
-  She looks so happy! The time we discussed works. How long shall I take her out for?
+            <div class="image-container chat-right">
+              <img src="assets/images/dog-image-1.jpg" alt="Dog image 1">
+              <img src="assets/images/dog-image-2.jpg" alt="Dog image 2">
+              <img src="assets/images/dog-image-3.jpg" alt="Dog image 3">
+            </div>
+          
+            <p class="message chat-right">Here are a few pictures. She’s a happy girl!</p>
+          
+            <p class="message chat-right">Can you make it?</p>
+          
+            <p class="message chat-left">She looks so happy! The time we discussed works. How long shall I take her out for?</p>
+          
+            <ul class="poll">
+              <li>
+                <input type="radio" name="option" id="option-1">
+                <label for="option-1">30 minute walk <span>$29</span></label>
+              </li>
+              <li>
+                <input type="radio" name="option" id="option-2">
+                <label for="option-2">1 hour walk <span>$49</span></label>
+              </li>
+            </ul>
 
-  30 minute walk
-  $29
+            <form action="index.html" method="post">
+              <textarea id="type-message" rows="1" name="message" placeholder="Type a message…" ></textarea>
+              <input type="submit" value=">" class="button">
+            </form>
+          </section>
+        </div>
+      </div>
+    </div>
+    <section id="card">
+      <h1>Simple booking</h1>
 
-  1 hour walk
-  $49
+      <p>
+        Stay in touch with our dog walkers through the chat interface. This makes it easy to 
+        discuss arrangements and make bookings. Once the walk has been completed you can rate 
+        your walker and book again all through the chat.
+      </p>
+    </section>
+  </main>
 
-  Type a message…
-
-  Simple booking
-
-  Stay in touch with our dog walkers through the chat interface. This makes it easy to 
-  discuss arrangements and make bookings. Once the walk has been completed you can rate 
-  your walker and book again all through the chat.
-  
-  <div class="attribution">
+  <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
-  </div>
+  </footer>
 </body>
 </html>

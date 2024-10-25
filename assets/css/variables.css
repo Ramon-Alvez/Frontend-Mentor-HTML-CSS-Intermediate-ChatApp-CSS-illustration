@@ -1,0 +1,34 @@
+:root {
+    /* ### Primary */
+
+    /* #### Text */
+
+    --AppSubHeading: hsl(276, 100%, 81%);
+    --ChatLeft: hsl(276, 55%, 52%);
+    --BgChatLeft: hsla(276, 55%, 52%, 0.1);
+    --ChatRight: hsl(271, 15%, 43%);
+    --PlaceholderText: hsl(206, 6%, 79%);
+    --MainHeading: hsl(271, 36%, 24%);
+    --Paragraph: hsl(270, 7%, 64%);
+
+    /* #### Gradients */
+
+    --CelFontSize: 0.8rem;
+    --FontSize: 1.6rem;
+    --DefaultPadding: 2rem;
+
+    --Gradient1: hsl(293, 100%, 63%);
+    --Gradient2: hsl(264, 100%, 61%);
+
+    --MenuButton1: hsla(289, 100%, 72%, 0.5);
+    --MenuButton2: hsla(276, 55%, 52%, 0.5);
+
+    /* ### Secondary */
+
+    --Neutral: hsl(0, 0%, 100%);
+    --AppBackground: hsl(270, 20%, 96%);
+    --SubmitButtonBackground: hsl(271, 36%, 24%);
+    --RadioButtonOutline: hsl(289, 100%, 72%);
+
+    --fontFamily: 'Rubik';
+}
