@@ -23,23 +23,24 @@ body {
 
 /* PATTERN STYLE */
 body .pattern-left {
-    height: 85%;
+    height: 100vh;
     width: 60rem;
     background: linear-gradient(var(--Gradient1), var(--Gradient2));
     position: absolute;
     z-index: -1;
     left: -15.3rem;
+    bottom: 15%;
     border-radius: 0 0 30rem 30rem;
 }
 body .pattern-right {
-    height: 85vh;
+    height: 100vh;
     width: 50rem;
     background: linear-gradient(var(--Gradient1), var(--Gradient2));
-    opacity: 0.1;
+    opacity: 0.02;
     position: absolute;
     z-index: -1;
     right: -22.7rem;
-    bottom: 0;
+    top: 15%;
     border-radius: 25rem 25rem 0 0;
 }
 
@@ -77,6 +78,7 @@ main #card p {
     width: 26rem;
     padding: 1rem;
     border-radius: 3rem;
+    box-shadow: 0.5rem 1.5rem 5rem -2.5rem black;
 }
 #cel #cel-display {
     background-color: var(--AppBackground);
@@ -184,7 +186,7 @@ main #card p {
 #cel #cel-display .menu #menu-checkbox:checked ~ .menu-list {
     display: flex;
     flex-direction: column;
-    width: 9rem;
+    width: 8.5rem;
     position: absolute;
     top: -0.2rem;
     z-index: -1;
@@ -296,7 +298,9 @@ main #card p {
     position: relative;
 }
 .poll li span {
-
+    font-size: calc(2 * var(--CelFontSize));
+    position: absolute;
+    right: 1rem;
 }
 .poll input {
     all: unset;

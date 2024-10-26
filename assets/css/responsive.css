@@ -1,0 +1,24 @@
+@media screen and (max-width: 900px) {
+    /* PATTERN STYLE */
+    body .pattern-left {
+        width: 34.5rem;
+        bottom: 45%;
+    }
+    body .pattern-right {
+        width: 41rem;
+        top: 52%;
+        right: -22.7rem;
+    }
+
+    /* Main Style */
+    main {
+        flex-wrap: wrap;
+    }
+    main .mockup-container {
+        justify-content: center;
+    }
+    main #card {
+        align-items: center;
+        text-align: center;
+    }
+}
