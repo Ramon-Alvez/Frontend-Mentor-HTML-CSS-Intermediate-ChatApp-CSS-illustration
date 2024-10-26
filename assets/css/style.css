@@ -15,10 +15,10 @@ main {
 }
 body {
     font-family: var(--fontFamily), sans-serif;
-    height: 100vh;
+    min-height: 100vh;
     background-color: var(--AppBackground);
     position: relative;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 /* PATTERN STYLE */
@@ -33,14 +33,14 @@ body .pattern-left {
     border-radius: 0 0 30rem 30rem;
 }
 body .pattern-right {
-    height: 100vh;
+    height: 85vh;
     width: 50rem;
     background: linear-gradient(var(--Gradient1), var(--Gradient2));
     opacity: 0.02;
     position: absolute;
     z-index: -1;
     right: -22.7rem;
-    top: 15%;
+    bottom: 0;
     border-radius: 25rem 25rem 0 0;
 }
 
@@ -356,4 +356,15 @@ form .button {
 form .button:active {
     background-color: var(--RadioButtonOutline);
     transition: 0.2s ease-in-out;
+}
+
+/* FOOTER STYLE */
+
+.attribution { 
+    padding: 2rem 1rem;
+    font-size: 1.1rem; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
 }

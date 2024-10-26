@@ -13,8 +13,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+#### Desktop Preview
+![Desktop Preview](./assets/preview/Desktop%20preview.gif)
 
+#### Responsivity Preview
+![Responsivity Preview](./assets/preview/Responsivity.gif)
 
 ### Links 🔗
 
