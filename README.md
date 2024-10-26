@@ -21,8 +21,8 @@ Users should be able to:
 
 ### Links 🔗
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/-html5-e-css-22-1-intermediate-chat-app-illustration-qRIT2_JeKy)
+- Live Site URL: [Live Site](https://ramon-alvez.github.io/Frontend-Mentor-HTML-CSS-Intermediate-ChatApp-CSS-illustration/)
 
 ## My process 💻✒
 
@@ -46,6 +46,6 @@ Currently I have just achieved my first goal of finishing all the HTML and CSS c
 
 ## Author 🧙‍♂️
 
-- GitHub - [Ramon Alvez]()
-- Frontend Mentor - [@Ramon Alvez]()
+- GitHub - [Ramon Alvez](https://github.com/Ramon-Alvez/Frontend-Mentor-HTML-CSS-Intermediate-ChatApp-CSS-illustration)
+- Frontend Mentor - [@Ramon Alvez](https://www.frontendmentor.io/solutions/-html5-e-css-22-1-intermediate-chat-app-illustration-qRIT2_JeKy)
 - LinkedIn - [@Ramon Alvez](https://www.linkedin.com/in/ramon-alvez/)
